@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<bouteilles>
+
+  <!-- bouteille d'eau Cristaline -->
+  <bouteille>
+    <nom>Cristaline</nom>
+    <quantité type="cl">150</quantité>
+    <contient>
+      <ions type="positifs">71 mg calcium</ions>
+      <ions type="positifs">5.5 mg magnésium</ions>
+      <ions type="negatifs">20 mg chlorures</ions>
+      <ions type="negatifs">1 mg nitrates</ions>
+    </contient>
+    <localisation>St-Cyr la Source</localisation>
+    <departement>Loiret</departement>
+    <code_barre>3274080005003</code_barre>
+    <ph>7.45</ph>
+    <commentaires>Comme la bouteille est sale, quelques autres matériaux comme du fer s'y trouvent en suspension.</commentaires>
+  </bouteille>
+
+  <!-- bouteille d'eau Cristaline 2 -->
+  <bouteille>
+    <nom>Cristaline 2</nom>
+    <quantité type="cl">50</quantité>
+    <contient>
+      <ions type="positifs">98 mg calcium</ions>
+      <ions type="positifs">4 mg magnésium</ions>
+      <ions type="negatifs">3.6 mg chlorures</ions>
+      <ions type="negatifs">2 mg nitrates</ions>
+    </contient>
+    <localisation>source d'Aurèle</localisation>
+    <departement>Alpes Maritimes</departement>
+    <code_barre>3268840001008</code_barre>
+    <ph>7.4</ph>
+    <commentaires></commentaires>
+  </bouteille>
+
+  <!-- bouteille d'eau Volvic -->
+  <bouteille>
+    <nom>Volvic</nom>
+    <quantité type="cl">50</quantité>
+    <contient>
+      <ions type="positifs">11,5 mg calcium</ions>
+      <ions type="positifs">8.0 mg magnésium</ions>
+      <ions type="negatifs">13.5 mg chlorures</ions>
+      <ions type="negatifs">6.3 mg nitrates</ions>
+    </contient>
+    <localisation>Volvic</localisation>
+    <departement>Auvergne</departement>
+    <code_barre>3057640117008</code_barre>
+    <ph>7</ph>
+    <commentaires>Elle contient également des particules de silice</commentaires>
+  </bouteille>
+
+</bouteilles>
+

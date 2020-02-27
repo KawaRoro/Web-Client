@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<bouteilles>
+
+  <!-- bouteille d'eau Cristaline -->
+  <bouteille>
+    <nom>Cristaline</nom>
+    <quantité type="cl">150</quantité>
+    <contient>
+        <calcium><ions type="positifs" valeur="mg">71</ions></calcium>
+        <magnesium><ions type="positifs" valeur="mg">5.5</ions></magnesium>
+        <chlorures><ions type="positifs" valeur="mg">20</ions></chlorures>
+        <nitrates><ions type="positifs" valeur="mg">1</ions></nitrates>
+    </contient>
+    <localisation>St-Cyr la Source</localisation>
+    <departement>Loiret</departement>
+    <code_barre>3274080005003</code_barre>
+    <ph>7.45</ph>
+    <commentaires>Comme la bouteille est sale, quelques autres matériaux comme du fer s'y trouvent en suspension.</commentaires>
+  </bouteille>
+
+  <!-- bouteille d'eau Cristaline 2 -->
+  <bouteille>
+    <nom>Cristaline 2</nom>
+    <quantité type="cl">50</quantité>
+    <contient>
+      <calcium><ions type="positifs" valeur="mg">98</ions></calcium>
+      <magnesium><ions type="positifs" valeur="mg">4</ions></magnesium>
+      <chlorures><ions type="positifs" valeur="mg">3.6</ions></chlorures>
+      <nitrates><ions type="positifs" valeur="mg">2</ions></nitrates>
+    </contient>
+    <localisation>source d'Aurèle</localisation>
+    <departement>Alpes Maritimes</departement>
+    <code_barre>3268840001008</code_barre>
+    <ph>7.4</ph>
+    <commentaires></commentaires>
+  </bouteille>
+
+  <!-- bouteille d'eau Volvic -->
+  <bouteille>
+    <nom>Volvic</nom>
+    <quantité type="cl">50</quantité>
+    <contient>
+      <calcium><ions type="positifs" valeur="mg">11.5</ions></calcium>
+      <magnesium><ions type="positifs" valeur="mg">8</ions></magnesium>
+      <chlorures><ions type="positifs" valeur="mg">13.5</ions></chlorures>
+      <nitrates><ions type="positifs" valeur="mg">6.3</ions></nitrates>
+    </contient>
+    <localisation>Volvic</localisation>
+    <departement>Auvergne</departement>
+    <code_barre>3057640117008</code_barre>
+    <ph>7</ph>
+    <commentaires>Elle contient également des particules de silice</commentaires>
+  </bouteille>
+
+</bouteilles>
+
