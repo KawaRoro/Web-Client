@@ -1,0 +1,60 @@
+/*
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	font-style: Extra-Bold;
+	font-weight: 700;
+	src: local('Montserrat Extra-Bold'), local('Montserrat-Extra-Bold'), url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap) format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	font-style: Bold;
+	font-weight: 600;
+	src: local('Montserrat Extra-Bold'), local('Montserrat-Bold'), url(https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap) format('truetype');
+}
+@font-face {
+	font-family: 'Montserrat', sans-serif;
+	font-style: italic;
+	font-weight: 400;
+	src: local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap) format('truetype');
+}*/
+@font-face {
+	font-family: 'Crete Round', serif;
+	font-style: normal;
+	font-weight: 400;
+	src: local('Crete Round Regular'), local('Crete Round-Regular'), url(https://fonts.googleapis.com/css?family=Crete+Round:400,400i,600,700&display=swap) format('truetype');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+}
+
+/*p.remarque {
+	font-style: italic;
+}*/
+
+.btn.btn-default{
+	display:block;
+	width:150px;
+	line-height:50px;
+	text-align:center;
+	color:black;
+	cursor: pointer;
+	text-decoration:none;
+}
+.remarque {
+	font-style: italic;
+}
+
+.important {
+	font-weight: bold;
+}
+
+.remarque.important {
+	color: red;
+}
+
+p#toto.remarque{
+	color: red;
+}

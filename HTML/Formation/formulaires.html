@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Description de la page.">
+    <title>Formulaires</title>
+    <style type="text/css">
+        .montableau td {
+            border: 1px solid black;
+        }
+        
+    </style>
+</head>
+
+<body >
+    <!-- Commentaire comme en XML -->
+    <!-- table>tr*2>td*3 -->
+    <form name="" action="#result" method="GET" enctype="multipart/form-data">
+        <table class="montableau" align="center" width="30px" height="30px">
+            <tr>
+                <td><div align="center" style="background-color: blue; height: 100px; width: 200px; color: cornsilk;"><br><br></div></td>
+                <td><div align="center" style="background-color: white; height: 100px; width: 200px; color: rgb(7, 7, 7);"><br><br></div></td>
+                <td><div align="center" style="background-color: red; height: 100px; width: 200px; color: cornsilk;"><br><br></div></td>
+            </tr>
+        </table>
+        <br>
+        <table align="center"> <!-- class="montableau"-->
+            <caption>Mon beau formulaire / tableaux</caption>
+            <tr>
+                <td align="right"><label for="nom">Nom : </label></td>
+                <td><input type="text" id="nom" name="nom_de_la_balise" size="30" value="Schoenmaeker"></td>
+                <td align="left">*</td>
+            </tr>
+            <tr>
+                <td align="right"><label for="nom">Mot de passe : </label></td>
+                <td><input type="password" name="nom_de_la_balise"  size="30" placeholder="ex:XfrSljelizaji"></td>
+                <td align="left">*</td>
+            </tr>
+            <tr>
+                <td align="right">Vous êtes :</td>
+                <td align="center">
+                    <input type="radio" name="sexe" value="femme" id="femme" />
+                    <label for="femme">Une femme</label>
+                    <input type="radio" name="sexe" value="homme" id="homme" checked="checked" />
+                    <label for="homme">Un homme</label><br>
+                    <input type="radio" name="sexe" value="nsp" id="nsp" />
+                    <label for="nsp">Je préfére ne pas le dire </label>
+                </td>
+                <td ></td>
+            </tr>
+            <tr>
+                <td><label for="pays">De quel pays <br>venez-vous ?</label></td>
+                <td>
+                    <select name="pays" id="pays" >
+                        <option value="France">France</option>
+                        <option value="Espagne">Espagne</option>
+                        <option value="Royaume-uni" selected>Royaume-uni</option>
+                    </select>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input name="myfile" type="file"/>
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="padding-left:30px">
+                    <!--<button>Submit</button>-->
+                    <input type="submit" value="Envoyer" disabled="disabled">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>* champs obligatoires</td>
+                <td>&nbsp;</td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
