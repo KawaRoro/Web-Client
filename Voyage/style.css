@@ -27,7 +27,9 @@
 	font-weight: 400;
 	src: local('Crete Round Regular'), local('Crete Round-Regular'), url(https://fonts.googleapis.com/css?family=Crete+Round:400,400i,600,700&display=swap) format('truetype');
 }
-
+* {
+	font-family: 'Crete Round', serif;
+}
 body {
 	margin: 0;
 	padding: 0;
