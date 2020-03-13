@@ -2,70 +2,57 @@
  #444444 noir
  #DDDDDD gris formulaire
  Extra-Bold
+*/
 
-@font-face {
-	font-family: 'Montserrat', sans-serif;
-	font-style: Extra-Bold;
-	font-weight: 700;
-	src: local('Montserrat Extra-Bold'), local('Montserrat-Extra-Bold'), url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap) format('truetype');
-}
-@font-face {
-	font-family: 'Montserrat', sans-serif;
-	font-style: Bold;
-	font-weight: 600;
-	src: local('Montserrat Extra-Bold'), local('Montserrat-Bold'), url(https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap) format('truetype');
-}
-@font-face {
-	font-family: 'Montserrat', sans-serif;
-	font-style: italic;
-	font-weight: 400;
-	src: local('Montserrat Italic'), local('Montserrat-Italic'), url(https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap) format('truetype');
-}*/
-@font-face {
-	font-family: 'Crete Round', serif;
-	font-style: normal;
-	font-weight: 400;
-	src: local('Crete Round Regular'), local('Crete Round-Regular'), url(https://fonts.googleapis.com/css?family=Crete+Round:400,400i,600,700&display=swap) format('truetype');
-}
 * {
-	font-family: 'Crete Round', serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
+
 body {
 	margin: 0;
-	padding: 0;
+	padding-top: 90px;
 
 }
 
-h1 {
+.header {
+	padding: 10px 16px;
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+h1 a span {
 	/*font-weight:bold;*/
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Crete Round', serif;
 	font-style: Extra-Bold;
 }
 
 h2 {
 	/*font-weight:bold;*/
-	font-family: 'Open Sans', sans-serif;
 	font-style: Bold;
 }
 
-h2[class=bis]{
+h2.bis {
 	/*font-weight:bold;*/
-	font-family: 'Open Sans', sans-serif;
 	font-style: Bold;
 }
 
 h2 {
-	font-family: 'Open Sans', sans-serif;
 	font-style: Extra-Bold;
 }
 
-
-table .headband {
-	background-image: url('images/main.jpg');
+.headband {
+	background-image: url('../images/main.jpg');
 	background-repeat: no-repeat;
-	width:1260px;
+	width:100%;
 	height:435px;
-	background-size: 1260px 435px;
+	background-size: 100% 435px;
+	vertical-align:middle;
+	text-align:center;
 }
 
 body .headband__button {
@@ -73,6 +60,7 @@ body .headband__button {
 	width: 100%;
 	line-height:50px;
 	text-align:center;
+	overflow: hidden;
 	vertical-align:middle;
 	text-decoration:none;
 	font-size: 18px;
@@ -86,6 +74,7 @@ body .headband__button a {
 	padding: 0px 10px 10px 0px;*/
 	padding: 10px 20px 10px 20px;
 	text-align: center;
+	overflow: hidden;
 	-webkit-transition-property: all;
 	transition-property: all;
 	-webkit-transition-duration: .1s;
@@ -97,16 +86,17 @@ body .headband__button a:hover {
 	background-color: #FF7A00;
 	padding: 15px 25px 15px 25px;
 	cursor: pointer;
+	overflow: hidden;
 	-webkit-transition-property: all;
 	transition-property: all;
 	-webkit-transition-duration: .1s;
 	transition-duration: .1s;
 }
 
-article[class=card] {
+article.card {
     width:460px;
 	height:270px;
-    background-image: url('images/article-image-1.jpg');
+    background-image: url('../images/article-image-1.jpg');
     background-repeat: no-repeat;
     background-size: 460px 270px;
     border-radius: 10px;
@@ -117,7 +107,7 @@ article[class=card] {
     float: left;
 }
 
-article[class=card] a {
+article.card a {
     font-size: 12px;
     color: #FFFFFF;
 	background-color: #FF7A00;
@@ -130,7 +120,7 @@ article[class=card] a {
     padding: 5px 10px 5px 10px;
 }
 
-article[class=card] a:hover {
+article.card a:hover {
     color: #FFFFFF;
 	background-color: #FF7A00;
 	cursor: pointer;
@@ -141,10 +131,10 @@ article[class=card] a:hover {
     border-radius: 5px;
     padding: 5px 10px 5px 10px;
 }
-article[class=card2] {
+article.card2 {
     width:460px;
 	height:270px;
-    background-image: url('images/article-image-2.jpg');
+    background-image: url('../images/article-image-2.jpg');
     background-repeat: no-repeat;
     background-size: 460px 270px;
     border-radius: 10px;
@@ -155,7 +145,7 @@ article[class=card2] {
     float: right;
 }
 
-article[class=card2] a {
+article.card2 a {
     font-size: 12px;
     color: #FFFFFF;
 	background-color: #FF7A00;
@@ -168,7 +158,7 @@ article[class=card2] a {
     padding: 5px 10px 5px 10px;
 }
 
-article[class=card2] a:hover {
+article.card2 a:hover {
     color: #FFFFFF;
 	background-color: #FF7A00;
 	cursor: pointer;
@@ -184,7 +174,7 @@ article[class=card2] a:hover {
     padding: 0px 20px 0px 0px;
 }*/
 
-div[class=card-body] {
+div.card-body {
     width:190px;
 	height:270px;
     background-color: #ffffff;
@@ -209,7 +199,6 @@ article h3 {
 .centrage div {
 	margin: 0;
 	padding: 0;
-	/*background-color: #FF7A00;*/
 	list-style-type: none;
 	overflow-x: hidden;
 	overflow-y: visible;
@@ -268,17 +257,38 @@ article h3 {
 }
 /***************** HEADER *****************/
 header {
-	/*padding-left: 30%;*/
-	padding-top: 0px;
+	background-color: white;
+	top:0px;
+	left:0px;
+	height: 90px;
+	width: 100%;
+	z-index: 10;
+}
+header.logo  {
+	position:fixed;
+	height: 90px;
+	top:0px;
 	margin-left: auto;
 	margin-right: auto;
 }
-nav {
-	padding-top: 0px;
+nav.menu {
+	background-color: #FFFFFF;
+	position:fixed;
+	text-decoration: none;
+	width: 100%;
+	top: 25px;
+	left: 55%;
 	font-size: smaller;
-	padding-right: 25%;
-	float: right;
 }
+
+div.logo {
+	background-color: #FFFFFF;
+	position:fixed;
+	text-decoration: none;
+	top:0px;
+	left:30%;
+}
+
 ul {
 	list-style-type: none;
 	margin: 0;
@@ -312,6 +322,25 @@ section {
 	margin: 0px;
 	padding: 0px;
 }
+
+section .section__review {
+	/*z-index: 1;
+	transform:scale(0.8);
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: .5s;
+    transition-duration: .5s;*/
+}
+
+section .section__review:hover {
+	/*z-index: 1;
+	transform:scale(1);
+	-webkit-transition-property: all;
+	transition-property: all;
+	-webkit-transition-duration: .5s;
+    transition-duration: .5s;*/
+}
+
 div {
 	margin: 0px;
 	padding: 0px;
